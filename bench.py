@@ -10,7 +10,8 @@ from bitarray import bitarray
 class BloomFilter2(object):
 
     '''
-    Class for Bloom filter, using murmur3 hash function
+    Python implementation for comparing to my C extension.
+    Copied from: https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/
     '''
 
     def __init__(self, items_count, fp_prob):
